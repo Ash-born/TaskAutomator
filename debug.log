@@ -1,0 +1,18 @@
+-------------Execution Started------------- Moment<2022-03-24T18:28:21-05:00>
+util: delay adding custom delay of 2500 milliseconds
+URL: https://www.cotps.com/#/pages/userCenter/userCenter not loaded.
+ Error: TimeoutError: Waiting for URL to be "https://www.cotps.com/#/pages/userCenter/userCenter"
+Wait timed out after 5148ms
+ Remaining Retries: 2
+URL: https://www.cotps.com/#/pages/userCenter/userCenter not loaded.
+ Error: WebDriverError: chrome not reachable
+  (Session info: chrome=99.0.4844.82)
+ Remaining Retries: 1
+URL: https://www.cotps.com/#/pages/userCenter/userCenter not loaded.
+ Error: WebDriverError: chrome not reachable
+  (Session info: chrome=99.0.4844.82)
+ Remaining Retries: 0
+URL: https://www.cotps.com/#/pages/userCenter/userCenter not loaded.
+ Error: WebDriverError: chrome not reachable
+  (Session info: chrome=99.0.4844.82)
+ Remaining Retries: -1

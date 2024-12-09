@@ -1,0 +1,41 @@
+<script>
+    tester = false;
+    const stopValue = 2; // the value we will stop looping at...must be LTE this.
+
+    const main = async _ => {
+        const rnd  = function () {
+            return Math.floor(Math.random() * 10) + 1;
+        }
+
+        const fetchAndCheck = function () {
+            val = rnd();
+            console.log(val);
+            if (val > stopValue) {
+                return false;
+            } else {
+                return true;
+            }
+        }
+
+        try {
+            test = fetchAndCheck();
+            while (!test) {
+                test = fetchAndCheck();
+                console.log(test);
+            }
+        } catch (err) {
+            console.log('error')    
+            console.error(err)
+        }
+    }
+
+    (async function invoker() {
+
+        await main()
+            .then(console.log)
+            .catch(console.error)
+ 
+    })()
+
+</script>
+
