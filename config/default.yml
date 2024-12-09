@@ -1,0 +1,25 @@
+browser:
+  #Timeout in ms
+  defaultTimeout: 5000
+
+  #Browser window dimanesions
+  width: 1920
+  height: 1200
+
+  # retry on failure count 
+  utilRetries: 3
+  routineRetries: 3
+  processRetries: 3
+
+  #Toggles: 0 to disable, 1 to enable
+  evidencesEnabled: 0
+
+cotps:
+  region: United States +1
+  phoneNo: 9123456789
+  password: defaultPassword
+
+interval:
+  enabled: 1
+  time: 133
+

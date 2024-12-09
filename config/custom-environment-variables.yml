@@ -1,0 +1,15 @@
+browser:
+  defaultTimeout: DEFAULT_TIMEOUT
+  #Toggles: 0 to disable, 1 to enable
+  evidencesEnabled: BROWSER_EVIDENCES_ENABLED
+  headlessMode: BROWSER_HEADLESS_MODE
+
+#credentials
+cotps:
+  region: COTPS_REGION
+  phoneNo: COTPS_PHONE_NO
+  password: COTPS_PASSWORD
+#cron
+interval:
+  enabled: INTERVAL_ENABLED
+  time: INTERVAL_TIME
