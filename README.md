@@ -4,8 +4,6 @@ COTPS Chrome Extension Automation Bot Powered by Selenium WebDriver &amp; Node.j
 ## Installation
 - OS: Windows, Linux, and macOS
 - Pre-requisites: Google Chrome, node.js v14.17.5 https://nodejs.org/dist/v14.17.5/node-v14.17.5-x64.msi
-
-- Clone and checkout to `main` branch from https://github.com/ahsan-babar/cotps-automata
 - Navigate to the folder and use the node package manager [npm](https://www.npmjs.com/) to install dependencies
 
 ```bash
@@ -44,6 +42,3 @@ After setting the above configurations in `.env` file, run the following command
 
 ## Debug
 debug logs can be found in `debug.log` file being generated during the execution.
-
-## Contact
-Please feel free to reach out at https://www.fiverr.com/ahsanbabar147 in case of any concerns.
