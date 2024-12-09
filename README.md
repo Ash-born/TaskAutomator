@@ -1,5 +1,3 @@
-# COTPS-automata
-COTPS Chrome Extension Automation Bot Powered by Selenium WebDriver &amp; Node.js
 
 ## Installation
 - OS: Windows, Linux, and macOS
@@ -21,11 +19,6 @@ BROWSER_HEADLESS_MODE=0
 
 #In ms
 DEFAULT_TIMEOUT= 5000
-
-#credentials
-COTPS_REGION=Pakistan +92
-COTPS_PHONE_NO=3249493082
-COTPS_PASSWORD=Bazinga2020!
 
 # 0 to disable, 1 to enable interval mode
 INTERVAL_ENABLED=1
